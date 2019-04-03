@@ -64,7 +64,7 @@ javaOpts:
 #registryPullSecrets: private-registry-secret
 image:
   repository: bunny/rb
-  tag: latest
+  tag: 0.3.0
   pullPolicy: IfNotPresent
 service:
   name: sample-activiti7-rb-app
